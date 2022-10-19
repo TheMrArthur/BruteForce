@@ -12,6 +12,9 @@
 		EC1B2A2C28FDD66300E07B04 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B2A2B28FDD66300E07B04 /* PasswordViewController.swift */; };
 		EC1B2A3128FDD66400E07B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1B2A3028FDD66400E07B04 /* Assets.xcassets */; };
 		EC1B2A3428FDD66400E07B04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1B2A3228FDD66400E07B04 /* LaunchScreen.storyboard */; };
+		EC1B2A5E28FDE4CE00E07B04 /* ExtensionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B2A5D28FDE4CE00E07B04 /* ExtensionString.swift */; };
+		EC1B2A6028FDE52E00E07B04 /* ExtensionPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B2A5F28FDE52E00E07B04 /* ExtensionPasswordViewController.swift */; };
+		EC1B2A65290085FE00E07B04 /* Metric.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B2A64290085FE00E07B04 /* Metric.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +44,9 @@
 		EC1B2A3528FDD66400E07B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC1B2A3A28FDD66400E07B04 /* BruteForceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BruteForceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC1B2A4428FDD66400E07B04 /* BruteForceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BruteForceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1B2A5D28FDE4CE00E07B04 /* ExtensionString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionString.swift; sourceTree = "<group>"; };
+		EC1B2A5F28FDE52E00E07B04 /* ExtensionPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionPasswordViewController.swift; sourceTree = "<group>"; };
+		EC1B2A64290085FE00E07B04 /* Metric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metric.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +114,10 @@
 		EC1B2A5828FDD9E100E07B04 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				EC1B2A5C28FDDA0A00E07B04 /* Metric */,
-				EC1B2A5B28FDD9FD00E07B04 /* Extension */,
-				EC1B2A5A28FDD9F600E07B04 /* Controllers */,
 				EC1B2A5928FDD9EE00E07B04 /* App */,
+				EC1B2A5A28FDD9F600E07B04 /* Controllers */,
+				EC1B2A63290085E800E07B04 /* Metric */,
+				EC1B2A5B28FDD9FD00E07B04 /* Extension */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -129,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				EC1B2A2B28FDD66300E07B04 /* PasswordViewController.swift */,
+				EC1B2A5F28FDE52E00E07B04 /* ExtensionPasswordViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -136,13 +143,15 @@
 		EC1B2A5B28FDD9FD00E07B04 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				EC1B2A5D28FDE4CE00E07B04 /* ExtensionString.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
 		};
-		EC1B2A5C28FDDA0A00E07B04 /* Metric */ = {
+		EC1B2A63290085E800E07B04 /* Metric */ = {
 			isa = PBXGroup;
 			children = (
+				EC1B2A64290085FE00E07B04 /* Metric.swift */,
 			);
 			path = Metric;
 			sourceTree = "<group>";
@@ -277,7 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC1B2A5E28FDE4CE00E07B04 /* ExtensionString.swift in Sources */,
 				EC1B2A2C28FDD66300E07B04 /* PasswordViewController.swift in Sources */,
+				EC1B2A6028FDE52E00E07B04 /* ExtensionPasswordViewController.swift in Sources */,
+				EC1B2A65290085FE00E07B04 /* Metric.swift in Sources */,
 				EC1B2A2828FDD66300E07B04 /* AppDelegate.swift in Sources */,
 				EC1B2A2A28FDD66300E07B04 /* SceneDelegate.swift in Sources */,
 			);
