@@ -9,13 +9,12 @@
 /* Begin PBXBuildFile section */
 		EC1B2A2828FDD66300E07B04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B2A2728FDD66300E07B04 /* AppDelegate.swift */; };
 		EC1B2A2A28FDD66300E07B04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B2A2928FDD66300E07B04 /* SceneDelegate.swift */; };
-		EC1B2A2C28FDD66300E07B04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B2A2B28FDD66300E07B04 /* ViewController.swift */; };
-		EC1B2A2F28FDD66300E07B04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1B2A2D28FDD66300E07B04 /* Main.storyboard */; };
+		EC1B2A2C28FDD66300E07B04 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B2A2B28FDD66300E07B04 /* PasswordViewController.swift */; };
 		EC1B2A3128FDD66400E07B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1B2A3028FDD66400E07B04 /* Assets.xcassets */; };
 		EC1B2A3428FDD66400E07B04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1B2A3228FDD66400E07B04 /* LaunchScreen.storyboard */; };
-		EC1B2A3F28FDD66400E07B04 /* BruteForceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B2A3E28FDD66400E07B04 /* BruteForceTests.swift */; };
-		EC1B2A4928FDD66400E07B04 /* BruteForceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B2A4828FDD66400E07B04 /* BruteForceUITests.swift */; };
-		EC1B2A4B28FDD66400E07B04 /* BruteForceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B2A4A28FDD66400E07B04 /* BruteForceUITestsLaunchTests.swift */; };
+		EC1B2A5E28FDE4CE00E07B04 /* ExtensionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B2A5D28FDE4CE00E07B04 /* ExtensionString.swift */; };
+		EC1B2A6028FDE52E00E07B04 /* ExtensionPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B2A5F28FDE52E00E07B04 /* ExtensionPasswordViewController.swift */; };
+		EC1B2A65290085FE00E07B04 /* Metric.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B2A64290085FE00E07B04 /* Metric.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +38,15 @@
 		EC1B2A2428FDD66300E07B04 /* BruteForce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BruteForce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC1B2A2728FDD66300E07B04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC1B2A2928FDD66300E07B04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EC1B2A2B28FDD66300E07B04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EC1B2A2E28FDD66300E07B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC1B2A2B28FDD66300E07B04 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
 		EC1B2A3028FDD66400E07B04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC1B2A3328FDD66400E07B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC1B2A3528FDD66400E07B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC1B2A3A28FDD66400E07B04 /* BruteForceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BruteForceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC1B2A3E28FDD66400E07B04 /* BruteForceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BruteForceTests.swift; sourceTree = "<group>"; };
 		EC1B2A4428FDD66400E07B04 /* BruteForceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BruteForceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC1B2A4828FDD66400E07B04 /* BruteForceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BruteForceUITests.swift; sourceTree = "<group>"; };
-		EC1B2A4A28FDD66400E07B04 /* BruteForceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BruteForceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC1B2A5D28FDE4CE00E07B04 /* ExtensionString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionString.swift; sourceTree = "<group>"; };
+		EC1B2A5F28FDE52E00E07B04 /* ExtensionPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionPasswordViewController.swift; sourceTree = "<group>"; };
+		EC1B2A64290085FE00E07B04 /* Metric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metric.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				EC1B2A2628FDD66300E07B04 /* BruteForce */,
-				EC1B2A3D28FDD66400E07B04 /* BruteForceTests */,
-				EC1B2A4728FDD66400E07B04 /* BruteForceUITests */,
 				EC1B2A2528FDD66300E07B04 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,32 +95,65 @@
 		EC1B2A2628FDD66300E07B04 /* BruteForce */ = {
 			isa = PBXGroup;
 			children = (
-				EC1B2A2728FDD66300E07B04 /* AppDelegate.swift */,
-				EC1B2A2928FDD66300E07B04 /* SceneDelegate.swift */,
-				EC1B2A2B28FDD66300E07B04 /* ViewController.swift */,
-				EC1B2A2D28FDD66300E07B04 /* Main.storyboard */,
-				EC1B2A3028FDD66400E07B04 /* Assets.xcassets */,
-				EC1B2A3228FDD66400E07B04 /* LaunchScreen.storyboard */,
-				EC1B2A3528FDD66400E07B04 /* Info.plist */,
+				EC1B2A5728FDD9C400E07B04 /* Resources */,
+				EC1B2A5828FDD9E100E07B04 /* Sources */,
 			);
 			path = BruteForce;
 			sourceTree = "<group>";
 		};
-		EC1B2A3D28FDD66400E07B04 /* BruteForceTests */ = {
+		EC1B2A5728FDD9C400E07B04 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				EC1B2A3E28FDD66400E07B04 /* BruteForceTests.swift */,
+				EC1B2A3028FDD66400E07B04 /* Assets.xcassets */,
+				EC1B2A3228FDD66400E07B04 /* LaunchScreen.storyboard */,
+				EC1B2A3528FDD66400E07B04 /* Info.plist */,
 			);
-			path = BruteForceTests;
+			path = Resources;
 			sourceTree = "<group>";
 		};
-		EC1B2A4728FDD66400E07B04 /* BruteForceUITests */ = {
+		EC1B2A5828FDD9E100E07B04 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				EC1B2A4828FDD66400E07B04 /* BruteForceUITests.swift */,
-				EC1B2A4A28FDD66400E07B04 /* BruteForceUITestsLaunchTests.swift */,
+				EC1B2A5928FDD9EE00E07B04 /* App */,
+				EC1B2A5A28FDD9F600E07B04 /* Controllers */,
+				EC1B2A63290085E800E07B04 /* Metric */,
+				EC1B2A5B28FDD9FD00E07B04 /* Extension */,
 			);
-			path = BruteForceUITests;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		EC1B2A5928FDD9EE00E07B04 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EC1B2A2928FDD66300E07B04 /* SceneDelegate.swift */,
+				EC1B2A2728FDD66300E07B04 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EC1B2A5A28FDD9F600E07B04 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC1B2A2B28FDD66300E07B04 /* PasswordViewController.swift */,
+				EC1B2A5F28FDE52E00E07B04 /* ExtensionPasswordViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EC1B2A5B28FDD9FD00E07B04 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EC1B2A5D28FDE4CE00E07B04 /* ExtensionString.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EC1B2A63290085E800E07B04 /* Metric */ = {
+			isa = PBXGroup;
+			children = (
+				EC1B2A64290085FE00E07B04 /* Metric.swift */,
+			);
+			path = Metric;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +262,6 @@
 			files = (
 				EC1B2A3428FDD66400E07B04 /* LaunchScreen.storyboard in Resources */,
 				EC1B2A3128FDD66400E07B04 /* Assets.xcassets in Resources */,
-				EC1B2A2F28FDD66300E07B04 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC1B2A2C28FDD66300E07B04 /* ViewController.swift in Sources */,
+				EC1B2A5E28FDE4CE00E07B04 /* ExtensionString.swift in Sources */,
+				EC1B2A2C28FDD66300E07B04 /* PasswordViewController.swift in Sources */,
+				EC1B2A6028FDE52E00E07B04 /* ExtensionPasswordViewController.swift in Sources */,
+				EC1B2A65290085FE00E07B04 /* Metric.swift in Sources */,
 				EC1B2A2828FDD66300E07B04 /* AppDelegate.swift in Sources */,
 				EC1B2A2A28FDD66300E07B04 /* SceneDelegate.swift in Sources */,
 			);
@@ -268,7 +299,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC1B2A3F28FDD66400E07B04 /* BruteForceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +306,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC1B2A4928FDD66400E07B04 /* BruteForceUITests.swift in Sources */,
-				EC1B2A4B28FDD66400E07B04 /* BruteForceUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +325,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EC1B2A2D28FDD66300E07B04 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC1B2A2E28FDD66300E07B04 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EC1B2A3228FDD66400E07B04 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -439,12 +459,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3X3V3KXTWJ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BruteForce/Info.plist;
+				INFOPLIST_FILE = BruteForce/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,9 +471,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.BruteForce;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -467,12 +489,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3X3V3KXTWJ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BruteForce/Info.plist;
+				INFOPLIST_FILE = BruteForce/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,9 +501,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.BruteForce;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
